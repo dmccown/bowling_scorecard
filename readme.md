@@ -15,3 +15,26 @@ When a bowler knocks all ten pins down on the first ball roll they are said to h
 
 #### The Spare
 When a bowler knocks all ten pins down on the second ball roll they are said to have rolled a spare. The score keeper will mark a / for that frame and the bowlers score is the ten pins that they just knocked down plus they get to add to that what they knock down on their next ball roll. Consequently, you will not know what the bowers score is until the next frame!
+
+(http://rubyquiz.strd6.com/quizzes/181-bowling-scores)
+
+Input:
+`calculate_score John 6 2 7 1 10 9 0 8 2 10 10 3 5 7 2 5 5 8`
+
+Output:
+```
+John's final score: 140
+
+Frame     Roll  Roll    Score
+   1        6     2        8
+   2        7     1       16
+   3        X             35
+   4        9     -       44
+   5        8     /       64
+   6        X             87
+   7        X            105
+   8        3     5      113
+   9        7     2      122
+  10        5     /      140
+   *        8
+```
